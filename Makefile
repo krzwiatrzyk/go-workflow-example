@@ -6,6 +6,9 @@ install-go:
 	rm go$(GO_VERSION).linux-amd64.tar.gz
 	echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.zshrc
 
+install-k3d:
+	echo "TODO"
+
 build:
 	cd container && go build -o tester && mv tester ../ 
 
