@@ -14,3 +14,6 @@ build:
 
 test: build
 	./tester
+
+git-all:
+	git add .; git commit -m "ER ADMIN - aggregative commit"; git push origin master
